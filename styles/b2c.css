@@ -1,0 +1,137 @@
+
+.case{
+	margin: 0 auto;
+}
+
+.case .cTitle + div{
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	margin: 0 auto 20px;
+}
+.content li{
+	width:  1124px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #ededed;
+	padding: 40px 0;
+}
+
+.content li > div.l{
+	width: 30%;
+	margin-left: 15%;
+}
+.content li > div[class$="l"]{
+	width: 40%;
+	margin-left: 10%;
+}
+
+/* .content li > div:first-child{
+	width: 40%;
+	margin-left: 10%;
+} */
+.content .ksjz{
+	width: 248px;
+    height: 236px;
+	background: url(../images/pic.png) no-repeat left top;
+}
+.content .gnqq{
+	width: 340px;
+    height: 247px;
+	background: url(../images/pic.png) no-repeat 0 -236px;
+}
+.content .xsxx{
+	width: 289px;
+    height: 188px;
+	background: url(../images/pic.png) no-repeat 0 -483px;
+}
+.content .dphl{
+	width: 346px;
+    height: 196px;
+    margin-top: 60px;
+	background: url(../images/pic.png) no-repeat 0 -671px;
+}
+.content .znyx{
+	width: 348px;
+    height: 264px;
+    margin-top: 60px;
+	background: url(../images/pic.png) no-repeat 0 -867px;
+}
+.content .gxh{
+    width: 313px;
+    height: 249px;
+	background: url(../images/pic.png) no-repeat 0 -1131px;
+}
+.content .xtwh{
+    width: 280px;
+    height: 212px;
+    background: url(../images/pic.png) no-repeat 0 -1380px;
+}
+.content .fxpt{
+    width: 290px;
+    height: 215px;
+    background: url(../images/pic.png) no-repeat 0 -1592px;
+}
+.content .dsp{
+    width: 304px;
+    height: 205px;
+    background: url(../images/pic.png) no-repeat 0 -1807px;
+}
+.content .mfty{
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 90px auto;
+	width: 200px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	color: #fe982d;
+	border: 1px solid;
+	border-radius: 3px;
+	font-size: 20px;
+}
+.content .mfty::before{
+	position: absolute;
+	content: "";
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	right: 0;
+	background-color: #ffd6ab;
+	top: -15px;
+}
+.content .mfty::after{
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	right: 7px;
+	background-color: #fe982d;
+	top: -8px;
+}
+.content .mfty:hover{
+	color: #fff;
+	background-color: #fe982d;
+}
+.content .mfty:hover::after,.content .mfty:hover::before{
+	display: none;
+}
+.content h2{
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
+	color: #423220;
+}
+.content p{
+	text-align: left;
+	font-size: 20px;
+	line-height: 40px;
+	color: #423220;
+}
+
+
+.banner img{
+	margin-left: -350px;
+}

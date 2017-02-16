@@ -1,0 +1,123 @@
+.sign-box {
+	border: 1px solid #e6e6e6;
+}
+.sign-content{
+	margin: 0 auto;
+	width: 700px;
+}
+
+.sign-item{padding: 10px 0;}
+.sign-item:last-child{
+	padding-top: 0;
+}
+.sign-btn-box{
+	padding-bottom: 0;
+}
+.sign-box h2 {
+	font-size: 26px;
+	color: #333333;
+	text-align: center;
+	margin: 40px 0;
+	font-weight: 100;
+}
+.sign-box .sign-tit{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	width: 100px;
+	text-align: right;
+	color: #666666;
+}
+.sign-tit span{position: relative;left: 0;top: 0;}
+.sign-tit span:after{
+	content: ':';
+	position: absolute;
+	right: -8px;
+	top: -12px;
+}
+.sign-tit .sign-bx:before{
+	content: '*';
+	position: absolute;
+	font-size: 18px;
+	left: -12px;
+	top: -6px;
+	color: #ff971f;
+}
+.sign-btn{
+	width: 366px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	color: #bcbab5;
+	margin-left:20px;
+	margin-right: 36px;
+}
+.sign-btn-no{
+	border: none;
+}
+.sign-btn input{
+	width: 100%;
+	text-indent: 10px;
+	font-size: 16px;
+}
+.sign-btn-s{
+	width: 178px;
+	border: 1px solid #ccc;
+	height: 38px;
+	line-height: 38px;
+}
+input{
+	height: 36px;
+	line-height: 36px;
+}
+.sign-btn-s.btn{
+	width: 166px;
+	text-align: center;
+	font-size: 14px;
+	background-color: #f4f4f4;
+}
+.yzt{
+	width: 100px;
+	height: 40px;
+}
+.hyh{
+	margin: 0 10px 0 20px;
+}
+.sign{
+	color: #fff;
+	text-align: center;
+	background-color: #2288f6;
+}
+.sign-err,.sign-suc{
+	color: #ff3f13;
+	line-height: 40px;
+	position: relative;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.sign-err:before{
+	width: 26px;
+	height: 100%;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -26px;
+	background: url(../images/zc_err.png) no-repeat left;
+}
+.sign-suc{
+	height: 40px;
+}
+.sign-suc:before{
+	width: 26px;
+	height: 100%;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -26px;
+	background: url(../images/zc_suc.png) no-repeat left;
+}
+
+
+.header h1{width: 326px;}

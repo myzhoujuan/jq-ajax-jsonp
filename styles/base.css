@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul,ol,dl{list-style: none;}
+html,body{height: 100%;font-family: "Microsoft YaHei","Lucida Grande","Lucida Sans",sans-serif;font-size:12px;}
+input{outline: none;border:none;}
+p{line-height:1;}
+img{vertical-align: top}
+a{text-decoration: none;}

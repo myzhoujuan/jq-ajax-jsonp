@@ -1,0 +1,75 @@
+.login-box {
+	position: absolute;
+	top: 90px;
+	right: 12px;
+	width: 340px;
+	background-color: #fff;
+	padding: 30px 40px;
+}
+.login-box p.title {
+	font-size: 20px;
+	text-align: center;
+}
+.login-error-box {
+	margin: 10px 0;
+	height: 26px;
+	line-height: 26px;
+	color: #fb0303;
+	text-align: center;
+	font-size: 12px;
+	background-color: #fff6d2;
+	border: 1px solid #ffe57d;
+}
+.login-btn {
+	margin-bottom: 20px;
+	height: 36px;
+	border: 1px solid;
+	color: #ccc;
+	line-height: 36px;
+}
+.login{
+	margin: 10px 0;
+}
+.login-yz{
+	margin: 10px 0;
+	line-height: 36px;
+	height: 36px;
+}
+.login-yz div{height: 100%;}
+.login-yz .yzm{
+	font-size:14px;
+	width: 110px;
+	border: 1px solid #ccc;
+}
+.login-yz input{
+	width: 100%;
+	text-indent: 10px;
+}
+.login-yz .yzt{
+	width: 80px;
+	margin: 0 10px;
+}
+.login-yz .hyz{
+	color: #2288f6;
+	text-indent: 10px;
+}
+.login-box .zj{height: 26px;line-height: 26px;}
+.login{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	color: #fff;
+	background-color: #3e7ee7;
+	border: 1px solid #3e7ee7;
+}
+.login-btn span {
+	width: 32px;
+	border-right: 1px solid;
+	height: 100%;
+}
+.login-btn input {
+	height: 100%;
+	line-height: 100%;
+	width: 220px;
+	text-indent: 6px;
+}

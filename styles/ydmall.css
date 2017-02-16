@@ -1,0 +1,113 @@
+.pro{
+overflow: hidden;
+margin-bottom: 80px;
+}
+.pro ul{
+	margin-bottom: 50px;
+}
+.pro ul li{
+	float: left;
+	margin-right: 40px;
+	width: 260px;
+}
+.pro li .icon{
+    background: url(../images/icon1.png) no-repeat;
+    height: 260px;
+    width: 260px;
+}
+.pro li h4{
+	color: #333;
+    font-size: 18px;
+    padding: 16px 0 10px;
+}
+.pro li p{
+	color: #666;
+    font-size: 14px;
+}
+.pro li:nth-child(1) .icon{
+	background-position: -189px 0;
+}
+.pro li:nth-child(2) .icon{
+	background-position: -189px -260px;
+}
+.pro li:nth-child(3) .icon{
+	background-position: -189px -520px;
+}
+.pro li:nth-child(4) .icon{
+	background-position: -189px -780px;
+}
+.pro li .icon{
+	transition: .3s all ease-in-out;
+}
+.pro li .icon:hover{
+	background-position-x: -449px;
+}
+
+.pro .tit h2{
+	background: url(../images/sprite-tit.png) no-repeat 0 0;
+    height: 37px;
+    width: 345px;
+    margin: 0 auto 145px;
+}
+
+
+.shopcmd ul li{
+	border: 1px solid #e7e8e9;
+	height: 430px;
+	padding: 46px 10px;
+	width: 230px;
+	float: left;
+	margin-right: 10px;
+}
+.shopcmd ul li:hover > div{
+	margin-top: -110px;
+	height: 448px;
+}
+.shopcmd li > div{
+	transition: all .5s ease-in;
+	overflow: hidden;
+    height: 338px;
+}
+
+.shopcmd li>div>div{
+    background: url(../images/icon1.png) no-repeat;
+    height: 178px;
+    margin: 0 0 108px 20px;
+}
+.shopcmd li:nth-child(2)>div>div{
+    background-position: 0 -178px;
+}
+.shopcmd li:nth-child(3)>div>div{
+    background-position: 0 -356px;
+}
+.shopcmd li:nth-child(4)>div>div{
+    background-position: 0 -534px;
+}
+.shopcmd li:nth-child(5)>div>div{
+    background-position: 0 -712px;
+}
+
+.shopcmd li h4{
+	color: #333;
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.shopcmd li p{
+	color: #666;
+    font-size: 14px;
+    padding: 0 8px;
+    line-height: 1.5em;
+}
+
+
+/*banner*/
+.banner-container{height:560px;min-width:1180px;position:relative;overflow:hidden}
+.banner-wrap{height:100%;width:100%}
+.banner-wrap li{height:100%;height:100%;position:relative;background-size:100% 100%;}
+.banner-wrap li .con-wrap{height:100%;width:1180px;margin:auto;position:relative}
+.banner-wrap li .con-wrap .absp{position:absolute}
+
+.banner img{
+	margin-left: -134px;
+}

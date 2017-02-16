@@ -1,0 +1,197 @@
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  vertical-align: top; }
+
+ol, ul, dl {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 12px; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+textarea {
+  outline: none;
+  resize: none; }
+
+table {
+  border-collapse: collapse; }
+
+div, p, h1, h2, h3, h4, h5, h6, b, strong, i, em, span, a, img, ul, ol, dl, input, textarea, label, select, tbody, option, body, html, dt, dd, li {
+  margin: 0;
+  padding: 0; }
+
+.fl, header h1, header h1 a, header nav .navigation li {
+  float: left; }
+
+.fr, header nav {
+  float: right; }
+
+.clearfix:after, header .header-container:after, header nav .navigation:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.clearfix, header .header-container, header nav .navigation {
+  zoom: 1; }
+
+.ab, header nav ul:last-child div, header nav ul:last-child div:after, header #store div, header #store div:after {
+  position: absolute; }
+
+.re, header nav ul:last-child, header #store {
+  position: relative; }
+
+.fixed {
+  position: fixed;
+  z-index: 400; }
+
+.servie-title {
+  width: 1004px;
+  height: 76px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto 34px; }
+  .servie-title h2 {
+    height: 45px;
+    margin-left: -86px;
+    position: absolute;
+    left: 50%;
+    margin-top: 64px;
+    background: url(../images/sprite-tit.png) no-repeat #fff; }
+
+.min-w {
+  min-width: 1200px; }
+
+.inner, header .header-container {
+  width: 1200px;
+  margin: 0 auto; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5; }
+
+body {
+  min-width: 1200px; }
+
+.inner, header .header-container {
+  width: 1200px;
+  margin: 0 auto; }
+
+header .header-container {
+  margin-top: 17px;
+  margin-bottom: 15px; }
+header h1 {
+  width: 326px;
+  height: 66px;
+  background: url("../images/logo.png"); }
+  header h1 a {
+    width: 100%;
+    height: 100%;
+    text-indent: -999em; }
+header nav .navigation {
+  font-size: 18px;
+  line-height: 68px; }
+  header nav .navigation li {
+    margin-left: 58px; }
+    header nav .navigation li a:hover {
+      color: #2288f6; }
+    header nav .navigation li i {
+      border-bottom: 2px solid #666;
+      border-left: 2px solid #666;
+      width: 8px;
+      height: 8px;
+      transform: rotateZ(-45deg);
+      display: inline-block;
+      margin-top: 26px;
+      margin-left: 4px;
+      vertical-align: top; }
+header nav ul:last-child div {
+  padding: 12px 31px 0;
+  width: 210px;
+  height: 174px;
+  background: #fcfbfb;
+  font-size: 14px;
+  line-height: 36px;
+  right: -46px;
+  display: none;
+  z-index: 10; }
+  header nav ul:last-child div li {
+    margin-left: 0; }
+    header nav ul:last-child div li a {
+      line-height: 34px;
+      color: #666; }
+header nav ul:last-child div:after {
+  width: 0px;
+  height: 0px;
+  border-bottom: 7px solid #3e83e1;
+  content: "";
+  border-left: 7px solid #fff;
+  border-right: 7px solid #fff;
+  top: -7px;
+  left: 82px; }
+header #store .store-content {
+  display: none; }
+header #store div {
+  width: 490px;
+  height: 290px;
+  left: -60px;
+  padding: 8px 38px 0;
+  background: #fcfbfb; }
+  header #store div h2 {
+    font-size: 18px;
+    line-height: 39px;
+    color: #333;
+    border-bottom: 1px solid #e7e6e6; }
+  header #store div ul li {
+    margin-left: 0px;
+    line-height: 0; }
+  header #store div ul li a {
+    color: #333;
+    font-size: 14px;
+    line-height: 46px;
+    display: inline-block;
+    margin-top: 9px; }
+  header #store div a:hover {
+    color: #2288f6; }
+  header #store div ul li p {
+    color: #999;
+    font-size: 12px; }
+header #store div:after {
+  width: 0px;
+  height: 0px;
+  border-bottom: 7px solid #3e83e1;
+  content: "";
+  border-left: 7px solid #fff;
+  border-right: 7px solid #fff;
+  top: -7px;
+  left: 90px; }
+
+/*# sourceMappingURL=header.css.map */
+
+#user-center #user-intro{
+  _opacity: 0;
+  display: none;
+  _transition: opacity 1s ease-in-out;
+}
+#user-center:hover #user-intro{
+  _opacity: 1;
+  display: block;
+}
+#store .store-content{
+
+  display: none;
+  _transition: opacity 1s ease-in-out;
+}
+#store:hover .store-content{
+
+  display: block;
+}

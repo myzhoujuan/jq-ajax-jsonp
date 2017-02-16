@@ -1,0 +1,152 @@
+
+.wrapper .ser,.wrapper .case,.wrapper .media{
+	margin: 0 auto;
+}
+
+/* banner s */
+.banner{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+.banner .wrapper {
+	height: 500px;
+}
+.banner ul{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner ul li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1200px;
+	height: 500px;
+}
+.banner ul li a{
+	display: block;
+}
+.banner ul li img{
+	width: 1900px;
+	height: 500px;
+	margin-left: -300px;
+}
+.banner ol{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.banner ol li{
+
+}
+/* banner e */
+
+/* server s */
+.ser{
+	margin: 0 auto;
+}
+
+.ser .cTitle + div{
+	width: 850px;
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	margin: 0 auto 20px;
+}
+.ser ul li{
+width: 320px;
+height: 510px;
+padding: 30px 40px;
+margin: 0 25px;
+border: 1px solid #e7e8e9;
+float: left;
+text-align: center
+}
+.ser li h3{
+	color: #333333;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 44px;
+}
+.ser li h3 + p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 26px;
+	text-align: left;
+}
+.ser li .btn{
+width: 106px;
+height: 34px;
+line-height: 34px;
+font-size: 14px;
+color: #ff9412;
+border: 1px solid #ff9412;
+border-radius: 3px;
+margin: 30px auto;
+}
+.ser li img{
+	width: 218px;
+	height: 150px;
+	margin-bottom:20px;
+}
+.ser li div.on{
+	color: #fff;
+	background-color: #ff9412;
+}
+/* server e */
+/* 经典案例 s */
+.case div.con{
+	position: relative;
+	left: 0;
+	right: 0;
+}
+div.con span.prev{
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+div.con span.next{
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.case ul{
+	position: relative;
+	left: 0;
+	top: 0;
+	margin-top: 20px;
+	height: 212px;
+	margin-bottom: 50px;
+}
+.case ul li{
+	float: left;
+	margin: 0 20px;
+	width: 325px;
+	height: 212px;
+	border: 1px solid #000;
+}
+
+/* 经典案例 e */
+/* 合作媒体 s */
+.media{
+	height: 500px;
+}
+.media ul li{
+	width: 230px;
+	height: 80px;
+	float: left;
+	border-top: 1px dashed #000;
+	border-left: 1px dashed #000;
+}
+.media ul li:nth-child(-n+5){
+	border-top:  none;
+}
+.media ul li:nth-child(5n+1){
+	border-left: none;
+}
+/* 合作媒体 e */
+

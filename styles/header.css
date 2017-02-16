@@ -1,0 +1,83 @@
+/* header s */
+.header{
+	height: 100px;
+}
+.header h1 {
+	width: 246px;
+	height: 70px;
+	text-indent: -9999em;
+	margin-top: 14px;
+}
+h1 a{
+	display: block;
+	height: 100%;
+	background: url(../images/logo.png) no-repeat;
+}
+.header>ul{
+	font-size: 18px;
+}
+.header>ul>li{margin-left: 40px;position: relative;left: 0;top: 0;}
+.header li.l>a{line-height: 100px;}
+.header li ul{
+	border: 1px solid #e7e6e6;
+position: absolute;left: 0;top: 100%;
+}
+.header li.shop ul{width: 490px;padding: 0 30px;margin-left: -30px;}
+.header li.userMar ul{width: 146px;padding: 0 10px;margin-left: -10px;font-size: 14px;line-height: 2em;}
+
+/* header e */
+
+/* footer s */
+.footer{
+	font-size: 14px;
+	height: 170px;
+	padding-top: 36px;
+	background-color: #212425;
+}
+.footer p{
+	text-align: center;
+}
+.footer ul{
+	margin-left: 200px;
+}
+.footer .fnav{
+	position: relative;
+	left: 0;
+	right: 0;
+
+}
+.footer .fnav::before{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	content: "";
+	height: 1px;
+	width: 1070px;
+	background-color: #888888;
+}
+.footer ul li{
+	float: left;
+	padding:1em;
+
+}
+.footer span{
+	color:#888888;
+	font-size: 20px;
+}
+.footer .t-box{
+	margin:  0 auto;
+}
+.footer ul li a{
+	color: #f0f1f1;
+}
+.footer ul li a:hover{
+	color: #2288f6;
+	text-decoration: underline;
+}
+.footer p.copy{
+	padding: 1em;
+	color:  #888888;
+}
+/* footer e */
