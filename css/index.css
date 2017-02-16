@@ -1,0 +1,151 @@
+a { text-decoration: none; color: #000; }
+
+img { vertical-align: top; }
+
+ol, ul, dl { list-style: none; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 12px; }
+
+b, strong { font-weight: normal; }
+
+i, em { font-style: normal; }
+
+input { outline: none; }
+
+textarea { outline: none; resize: none; }
+
+table { border-collapse: collapse; }
+
+div, p, h1, h2, h3, h4, h5, h6, b, strong, i, em, span, a, img, ul, ol, dl, input, textarea, label, select, tbody, option, body, html, dt, dd, li, .case .case-list ul li span { margin: 0; padding: 0; }
+
+.fl, header h1, header h1 a, header nav .navigation li, .banner-box ul li, .case .case-list ul li, .case .case-list ul li span { float: left; }
+
+.fr, header nav { float: right; }
+
+.clearfix:after, header .header-container:after, header nav .navigation:after, .banner-box ul:after, .service ul:after, .question ul:after, .case .case-list:after, .case .case-list ul:after, .medium ul:after { display: block; content: ""; clear: both; }
+
+.clearfix, header .header-container, header nav .navigation, .banner-box ul, .service ul, .question ul, .case .case-list, .case .case-list ul, .medium ul { zoom: 1; }
+
+.ab, header nav ul:last-child div, header nav ul:last-child div:after, header #store div, header #store div:after, .banner-box ul, .banner-box ol, .case .case-list ul li h2 { position: absolute; }
+
+.re, header nav ul:last-child, header #store, .banner-box, .service, .case .case-list { position: relative; }
+
+.fixed, #consult { position: fixed; z-index: 400; }
+
+.title .servie-title, .service .servie-title, .question .servie-title, .case .servie-title, .medium .servie-title { width: 1004px; height: 76px; border-bottom: 1px solid #ccc; margin: 0 auto; }
+.title .servie-title h2, .service .servie-title h2, .question .servie-title h2, .case .servie-title h2, .medium .servie-title h2 { width: 156px; height: 44px; margin-left: -78px; position: absolute; left: 50%; margin-top: 64px; }
+
+.questionList li:hover, .question li:hover, .questionList .case .case-list ul li span:hover, .case .case-list ul li .questionList span:hover, .question .case .case-list ul li span:hover, .case .case-list ul li .question span:hover { background: #fafafa; -webkit-box-shadow: #999 0px 0px 10px; -moz-box-shadow: #999 0px 0px 10px; box-shadow: #999 0 0px 10px; }
+.questionList li:hover span, .question li:hover span, .questionList .case .case-list ul li span:hover span, .case .case-list ul li .questionList span:hover span, .question .case .case-list ul li span:hover span, .case .case-list ul li .question span:hover span { border-color: #3e92f9; background: url(../images/question-sprite.png) #3e92f9 no-repeat; }
+.questionList li, .question li, .questionList .case .case-list ul li span, .case .case-list ul li .questionList span, .question .case .case-list ul li span, .case .case-list ul li .question span { padding-top: 40px; width: 338px; border: 1px #ddd solid; border-radius: 4px; float: left; margin-left: 15px; margin-bottom: 20px; }
+.questionList li h2, .question li h2, .questionList .case .case-list ul li span h2, .case .case-list ul li .questionList span h2, .question .case .case-list ul li span h2, .case .case-list ul li .question span h2 { font-size: 15px; color: #555; }
+.questionList li i, .question li i, .questionList .case .case-list ul li span i, .case .case-list ul li .questionList span i, .question .case .case-list ul li span i, .case .case-list ul li .question span i { font-size: 12px; color: #666; display: block; line-height: 24px; }
+.questionList li a span, .question li a span, .questionList .case .case-list ul li span a span, .case .case-list ul li .questionList span a span, .question .case .case-list ul li span a span, .case .case-list ul li .question span a span { background: url(../images/question-sprite.png) no-repeat; margin: 0 20px 58px; float: left; border-radius: 4px; border: 1px #ddd solid; height: 50px; width: 50px; display: inline-block; }
+
+.min-w, .case, footer { min-width: 1200px; }
+
+.inner, footer div, header .header-container, .service .des, .service ul, .question, .case .case-container, .medium { width: 1200px; margin: 0 auto; }
+
+footer { height: 90px; background: #212425; text-align: center; font-size: 14px; line-height: 28px; }
+footer div { padding: 14px 0 0 0; }
+footer div p { color: #7e7e7e; }
+footer div ul li, footer div .case .case-list ul li span, .case .case-list footer div ul li span { display: inline-block; padding: 0 14px; color: #999999; }
+footer div ul li i, footer div .case .case-list ul li span i, .case .case-list footer div ul li span i { background: url(../images/icon.png); display: inline-block; height: 23px; margin-right: 6px; width: 32px; vertical-align: middle; }
+footer div ul li a, footer div .case .case-list ul li span a, .case .case-list footer div ul li span a { color: #fff; }
+footer div ul li a:hover, footer div .case .case-list ul li span a:hover, .case .case-list footer div ul li span a:hover { color: #2288f6; }
+footer div ul li a.active, footer div .case .case-list ul li span a.active, .case .case-list footer div ul li span a.active { color: #2288f6; }
+
+.inner, footer div, header .header-container, .service .des, .service ul, .question, .case .case-container, .medium { width: 1200px; margin: 0 auto; }
+
+header .header-container { margin-top: 17px; margin-bottom: 20px; }
+header h1 { width: 326px; height: 66px; background: url("../images/logo.png"); }
+header h1 a { width: 100%; height: 100%; text-indent: -999em; }
+header nav .navigation { font-size: 18px; line-height: 68px; }
+header nav .navigation li, header nav .navigation .case .case-list ul li span, .case .case-list ul li header nav .navigation span { margin-left: 58px; }
+header nav .navigation li a:hover, .case .case-list ul li header nav .navigation span a:hover { color: #2288f6; }
+header nav .navigation li i, header nav .navigation .case .case-list ul li span i, .case .case-list ul li header nav .navigation span i { border-bottom: 2px solid #666; border-left: 2px solid #666; width: 8px; height: 8px; transform: rotateZ(-45deg); display: inline-block; margin-top: 26px; margin-left: 4px; vertical-align: top; }
+header nav ul:last-child div { padding: 12px 31px 0; width: 128px; height: 174px; background: #fcfbfb; font-size: 14px; line-height: 36px; right: -46px; display: none; z-index: 10; }
+header nav ul:last-child div li, header nav .case .case-list ul:last-child div li span, .case .case-list header nav ul:last-child div li span, header nav .case .case-list ul:last-child li div span, .case .case-list header nav ul:last-child li div span { margin-left: 0; }
+header nav ul:last-child div li a, header nav .case .case-list ul:last-child div li span a, .case .case-list header nav ul:last-child div li span a, header nav .case .case-list ul:last-child li div span a, .case .case-list header nav ul:last-child li div span a { line-height: 34px; color: #666; }
+header nav ul:last-child div:after { width: 0px; height: 0px; border-bottom: 7px solid #3e83e1; content: ""; border-left: 7px solid #fff; border-right: 7px solid #fff; top: -7px; left: 82px; }
+header #store .store-content { display: none; }
+header #store div { width: 414px; height: 244px; left: -60px; padding: 8px 38px 0; background: #fcfbfb; }
+header #store div h2 { font-size: 18px; line-height: 39px; color: #333; border-bottom: 1px solid #e7e6e6; }
+header #store div ul li, header #store div .case .case-list ul li span, .case .case-list header #store div ul li span { margin-left: 0px; line-height: 0; }
+header #store div ul li a { color: #333; font-size: 14px; line-height: 46px; display: inline-block; margin-top: 9px; }
+header #store div a:hover { color: #2288f6; }
+header #store div ul li p { color: #999; font-size: 12px; }
+header #store div:after { width: 0px; height: 0px; border-bottom: 7px solid #3e83e1; content: ""; border-left: 7px solid #fff; border-right: 7px solid #fff; top: -7px; left: 90px; }
+
+#consult { top: 380px; right: 12px; }
+#consult a { width: 30px; height: 30px; display: block; margin-bottom: 10px; font-size: 12px; border-radius: 4px; line-height: 18px; text-align: center; padding: 10px; }
+#consult a:nth-child(1) { background: url(../images/question-icon.png) #7c7c7c no-repeat 7px 9px; }
+#consult a:nth-child(2) { background: url(../images/question-icon.png) #7c7c7c no-repeat 7px -34px; }
+#consult a:hover { background: #3e92f9; color: #fff; }
+
+.banner-box { height: 620px; min-width: 1200px; overflow: hidden; }
+.banner-box ul { width: 100%; height: 100%; overflow: hidden; margin-left: -260px; }
+.banner-box ul li a{width: 100%;height: 100%;display: block;}
+.banner-box ul li, .banner-box .case .case-list ul li span, .case .case-list .banner-box ul li span { cursor: pointer; height: 100%; width: 1900px; }
+.banner-box ol { bottom: 24px; left: 50%; }
+.banner-box ol li, .banner-box ol .case .case-list ul li span, .case .case-list ul li .banner-box ol span { margin-right: 5px; cursor: pointer; width: 10px; height: 10px; border: 2px solid #f6fafe; background: #fff; border-radius: 50%; display: inline-block; }
+.banner-box ol li.active, .banner-box ol .case .case-list ul li span.active, .case .case-list ul li .banner-box ol span.active { background: transparent; }
+
+.service { background: #fafafa; background: #fafafa; padding-bottom: 70px; min-width: 1200px; }
+.service .servie-title h2 { background: url(../images/sprite-tit.png) #fafafa 0 -486px; }
+.service .des { margin: 50px auto; color: #666; text-align: center; font-size: 14px; }
+.service ul li, .service .case .case-list ul li span, .case .case-list .service ul li span { position: relative; float: left; margin-left: 48px; width: 320px; height: 510px; border: 1px solid #e7e8e9; background-color: #fff; }
+.service ul li div, .service .case .case-list ul li span div, .case .case-list .service ul li span div { position: absolute; top: 42px; margin-left: 40px; }
+.service ul li .icons-wsmj, .service .case .case-list ul li span .icons-wsmj, .case .case-list .service ul li span .icons-wsmj { background: url(../images/our-service.png); width: 238px; height: 130px; }
+.service ul li .icons-wyyx, .service .case .case-list ul li span .icons-wyyx, .case .case-list .service ul li span .icons-wyyx { width: 217px; height: 148px; background: url(../images/our-service.png) 0 -130px; }
+.service ul li .icons-mthz, .service .case .case-list ul li span .icons-mthz, .case .case-list .service ul li span .icons-mthz { width: 253px; height: 130px; background: url(../images/our-service.png) 0 -278px; }
+.service ul li h2, .service .case .case-list ul li span h2, .case .case-list .service ul li span h2 { position: absolute; top: 218px; margin: 0 auto; width: 100%; color: #333; text-align: center; font-size: 24px; }
+.service ul li i, .service .case .case-list ul li span i, .case .case-list .service ul li span i { width: 280px; color: #666; font-weight: 500; font-size: 14px; line-height: 24px; position: absolute; top: 262px; padding-left: 25px; }
+.service ul li span, .service .case .case-list ul li span span, .case .case-list .service ul li span span { border: 1px solid #ff9412; border-radius: 2px; color: #ff9412; text-align: center; font-size: 14px; line-height: 34px; background: #fff; font-family: "microsoft yahei"; position: absolute; top: 410px; left: 84px; width: 150px; height: 38px; }
+.service ul li span:hover { background: #FF9412; color: #fff; }
+
+.question .question-title h2 { background: url(../images/sprite-tit.png) #fff 0 -574px; }
+.question ul li:hover .icon-kssy, .question .case .case-list ul li span:hover .icon-kssy, .case .case-list .question ul li span:hover .icon-kssy { background-position: 4px 4px; }
+.question ul li:hover .icon-plant, .question .case .case-list ul li span:hover .icon-plant, .case .case-list .question ul li span:hover .icon-plant { background-position: -45px 9px; }
+.question ul li:hover .icon-media, .question .case .case-list ul li span:hover .icon-media, .case .case-list .question ul li span:hover .icon-media { background-position: -92px 9px; }
+.question ul li:hover .icon-brand, .question .case .case-list ul li span:hover .icon-brand, .case .case-list .question ul li span:hover .icon-brand { background-position: -145px 6px; }
+.question ul li:hover .icon-gv, .question .case .case-list ul li span:hover .icon-gv, .case .case-list .question ul li span:hover .icon-gv { background-position: -194px 7px; }
+.question ul li:hover .icon-clients, .question .case .case-list ul li span:hover .icon-clients, .case .case-list .question ul li span:hover .icon-clients { background-position: -245px 10px; }
+.question .icon-kssy { background-position: 5px -46px; }
+.question .icon-plant { background-position: -45px -42px; }
+.question .icon-media { background-position: -92px -40px; }
+.question .icon-brand { background-position: -145px -44px; }
+.question .icon-gv { background-position: -194px -42px; }
+.question .icon-clients { background-position: -245px -40px; }
+.question ul { margin-top: 54px; margin-left: 50px; }
+
+.case { background: #fafafa; margin-top: 34px; }
+.case .case-title h2 { background: url(../images/sprite-tit.png) #fafafa 0 -217px; }
+.case .case-list { padding: 80px 0 84px; width: 1092px; margin: 0px auto; }
+.case .case-list .case-wrapper { overflow: hidden; max-width: 1052px; margin: 0px auto; }
+.case .case-list ul { position: relative; height: 210px; width: 100%; }
+.case .case-list ul li, .case .case-list ul li span { margin-right: 40px; position: relative; width: 324px; height: 100%; cursor: pointer; overflow: hidden; }
+.case .case-list ul li a { width: 100%; height: 100%; display: block; }
+.case .case-list ul li a img { width: 100%; height: 100%; transition: 1s all ease; }
+.case .case-list ul li h2 { bottom: 0; background: rgba(0, 0, 0, 0.3); color: #fff; font-size: 14px; height: 46px; line-height: 46px; width: 324px; position: absolute; left: 0; bottom: 0; text-align: center; }
+.case .case-list ul li span { position: absolute; background: rgba(0, 0, 0, 0.2); top: 0; display: none; }
+.case .case-list ul li span i { background: url(../images/ser.png) no-repeat; height: 72px; width: 72px; position: absolute; left: 50%; top: 50%; margin: -28px 0 0 -36px; }
+.case .case-list span { height: 60px; margin-top: -38px; position: absolute; z-index: 9999; top: 50%; width: 60px; background: url(../images/controls.png) no-repeat; }
+.case .case-list .pre { left: -56px; cursor: pointer; }
+.case .case-list .next { right: -56px; cursor: pointer; background-position: 0 -120px; }
+
+.medium .medium-title h2 { background: url(../images/sprite-tit.png) #fff 0 -530px; }
+.medium ul { margin: 82px 0 66px; width: 1054px; overflow: hidden; margin-left: 78px; height: 260px; }
+.medium ul li, .medium .case .case-list ul li span, .case .case-list .medium ul li span { margin: -1px 0 0 -1px; width: 208px; height: 86px; border-top: 1px dashed #ccc; border-left: 1px dashed #ccc; text-align: center; overflow: hidden; float: left; }
+.medium ul li a, .medium .case .case-list ul li span a, .case .case-list .medium ul li span a { margin: 10px auto; display: block; }
+
+footer { height: 90px; background: #212425; text-align: center; font-size: 14px; line-height: 28px; }
+footer div { padding: 14px 0 0 0; }
+footer div p { color: #7e7e7e; }
+footer div ul li, footer div .case .case-list ul li span, .case .case-list footer div ul li span { display: inline-block; padding: 0 14px; color: #999999; }
+footer div ul li i, footer div .case .case-list ul li span i, .case .case-list footer div ul li span i { background: url(../images/icon.png); display: inline-block; height: 23px; margin-right: 6px; width: 32px; vertical-align: middle; }
+footer div ul li a, footer div .case .case-list ul li span a, .case .case-list footer div ul li span a { color: #fff; }
+footer div ul li a:hover, footer div .case .case-list ul li span a:hover, .case .case-list footer div ul li span a:hover { color: #2288f6; }
+footer div ul li a.active, footer div .case .case-list ul li span a.active, .case .case-list footer div ul li span a.active { color: #2288f6; }
+
+/*# sourceMappingURL=index.css.map */

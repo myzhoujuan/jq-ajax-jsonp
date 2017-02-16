@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>找回密码</title>
+	<link rel="stylesheet" type="text/css" href="../styles/base.css">
+	<link rel="stylesheet" type="text/css" href="../styles/conmon.css">
+	<link rel="stylesheet" type="text/css" href="../styles/header.css">
+	<link rel="stylesheet" type="text/css" href="../styles/sign.css">
+	<script src="../js/utils.js" type="text/javascript"></script>
+	<script src="../js/find.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- header s -->
+		<div class="header clearfix">
+			<h1 class="l">
+				<a href="javascript:;"></a>
+			</h1>
+		</div>
+		<!-- header e -->
+		<div class="sign-box">
+			<div class="sign-content">
+				<h2>找回密码</h2>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span>验证码</span>
+					</div>
+					<div class="l sign-btn sign-btn-no">
+						<div class="sign-btn-s l">
+							<input type="text" id="yzm" placeholder="请输入验证码">
+						</div>
+						<div class="r">
+							<div class="l yzt"></div>
+							<div class="l hyh">换一张</div>
+						</div>
+					</div>
+					<div class="l sign-err">
+						验证码不正确，请重新输入
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span>验证手机</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="text" id="yzsj" placeholder="请输入已经验证手机号">
+					</div>
+					<div class="l sign-err">
+						账户存在
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span>手机认证码</span>
+					</div>
+					<div class="l sign-btn sign-btn-no">
+						<div class="sign-btn-s l">
+							<input class="l" type="text" id="ujrz" placeholder="输入验证码">
+						</div>
+						<div class="r sign-btn-s btn">
+							获取短信验证码
+						</div>
+
+					</div>
+					<div class="l sign-err">
+						验证码不正确，请重新获取
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span>设置新密码</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="password" id="szmm" placeholder="6-20个数字或字母">
+					</div>
+					<div class="l sign-err">
+						请输入6-20个数字或字母
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item sign-btn-box">
+					<div class="l sign-tit"></div>
+					<div class="l sign-btn sign-btn-no sign" id="sign">
+						确定
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit"></div>
+					<div class="l sign-btn sign-btn-no">
+						<a class="r" href="javascript:;"><<返回登录页</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

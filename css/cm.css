@@ -1,0 +1,51 @@
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.ab {
+  position: absolute; }
+
+.re {
+  position: relative; }
+
+.fixed {
+  position: fixed;
+  z-index: 400; }
+
+.servie-title {
+  width: 1004px;
+  height: 76px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto 34px; }
+  .servie-title h2 {
+    height: 45px;
+    margin-left: -86px;
+    position: absolute;
+    left: 50%;
+    margin-top: 64px;
+    background: url(../images/sprite-tit.png) no-repeat #fff; }
+
+.min-w {
+  min-width: 1200px; }
+
+.inner {
+  width: 1200px;
+  margin: 0 auto; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5; }
+
+body {
+  min-width: 1200px; }
+
+/*# sourceMappingURL=cm.css.map */

@@ -1,0 +1,186 @@
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  vertical-align: top; }
+
+ol, ul, dl {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 12px; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+textarea {
+  outline: none;
+  resize: none; }
+
+table {
+  border-collapse: collapse; }
+
+div, p, h1, h2, h3, h4, h5, h6, b, strong, i, em, span, a, img, ul, ol, dl, input, textarea, label, select, tbody, option, body, html, dt, dd, li {
+  margin: 0;
+  padding: 0; }
+
+.fl {
+  float: left; }
+
+.fr, section .login-content .act-bar a {
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.ab, section .bg .login-wapper .login-content, section .login-content i {
+  position: absolute; }
+
+.re, section .bg .login-wapper {
+  position: relative; }
+
+.fixed {
+  position: fixed;
+  z-index: 400; }
+
+.servie-title {
+  width: 1004px;
+  height: 76px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto 34px; }
+  .servie-title h2 {
+    height: 45px;
+    margin-left: -86px;
+    position: absolute;
+    left: 50%;
+    margin-top: 64px;
+    background: url(../images/sprite-tit.png) no-repeat #fff; }
+
+.min-w, section .bg {
+  min-width: 1200px; }
+
+.inner, header, section .bg .login-wapper, footer p {
+  width: 1200px;
+  margin: 0 auto; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5; }
+
+body {
+  min-width: 1200px; }
+
+.inner, header, section .bg .login-wapper, footer p {
+  width: 1200px;
+  margin: 0 auto; }
+
+header h1 {
+  background: url(../images/shopcmd.png);
+  width: 245px;
+  height: 69px;
+  margin-top: 20px;
+  margin-left: 10px; }
+  header h1 a {
+    text-indent: -999em;
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.show {
+  border: 1px solid #96c6f9; }
+
+.fail {
+  border: 1px solid #96c6f9; }
+
+section .bg {
+  background: url(../images/bg.png) no-repeat center;
+  width: 100%;
+  height: 560px;
+  margin-top: 10px; }
+  section .bg .login-wapper .login-content {
+    width: 280px;
+    padding: 30px 40px;
+    background: #fff;
+    right: 5px;
+    top: 90px; }
+section .login-content h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 32px; }
+section .login-content i {
+  display: none;
+  width: 278px;
+  border: 1px solid #ffe57d;
+  color: #fb0303;
+  font-size: 12px;
+  line-height: 24px;
+  height: 24px;
+  text-align: center;
+  background: #fff6d2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  top: 60px; }
+section .login-content .input:focus {
+  border: 1px solid #96c6f9; }
+section .login-content .input {
+  margin-bottom: 20px;
+  display: block;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  width: 243px;
+  line-height: 34px;
+  text-indent: 0.5em;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 35px;
+  background: url(../images/login-icon.jpeg) no-repeat; }
+section .login-content .i-lock {
+  background-position: 0px -62px; }
+section .login-content .act-bar {
+  color: #666;
+  font-size: 12px; }
+  section .login-content .act-bar input[type="checkbox"] {
+    vertical-align: -3px;
+    margin-right: 4px; }
+  section .login-content .act-bar a {
+    color: #666; }
+section .login-content button {
+  margin-top: 16px;
+  border: 0 none;
+  border-radius: 3px;
+  width: 100%;
+  line-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #3e7ee7;
+  cursor: pointer; }
+section .login-content .register {
+  display: block;
+  text-align: right;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666; }
+
+footer {
+  padding: 44px 0 40px; }
+  footer p {
+    font-size: 13px;
+    color: #999;
+    text-align: center; }
+
+/*# sourceMappingURL=login.css.map */

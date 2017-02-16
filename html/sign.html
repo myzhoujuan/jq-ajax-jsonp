@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="../styles/base.css">
+	<link rel="stylesheet" type="text/css" href="../styles/conmon.css">
+	<link rel="stylesheet" type="text/css" href="../styles/header.css">
+	<link rel="stylesheet" type="text/css" href="../styles/sign.css">
+	<script src="../js/utils.js" type="text/javascript"></script>
+	<script src="../js/ajax.js" type="text/javascript"></script>
+	<script src="../js/sign.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- header s -->
+		<div class="header clearfix">
+			<h1 class="l">
+				<a href="javascript:;"></a>
+			</h1>
+		</div>
+		<!-- header e -->
+		<div class="sign-box">
+			<div class="sign-content">
+				<h2>欢迎注册</h2>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">账号名</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="text" id="zhm" placeholder="限8位,含数字及字母">
+					</div>
+					<div class="l sign-err">
+						账号已存在
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">设置密码</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="password" id="szmm" placeholder="6-16个数字或字母">
+					</div>
+					<div class="l sign-err">
+						请输入6-16个数字或字母
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">确认密码</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="text" id="qrmm">
+					</div>
+					<div class="l sign-err">
+						密码上下不一致
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span >公司名称</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="text" id="gsmc">
+					</div>
+					<div class="l sign-err">
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">联系人</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="text" id="lxr">
+					</div>
+					<div class="l sign-err">
+						请输入联系人
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">所在区域</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="text" id="szqy" placeholder="请选择所在区域">
+					</div>
+					<div class="l sign-err">
+						请选择区域
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">验证手机</span>
+					</div>
+					<div class="l sign-btn">
+						<input type="text" id="yzsj">
+					</div>
+					<div class="l sign-err">
+						号码错误或手机号码已存在
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">短信验证</span>
+					</div>
+					<div class="l sign-btn sign-btn-no">
+						<div class="sign-btn-s l">
+							<input class="l" type="text" id="dxyz">
+						</div>
+						<div class="r sign-btn-s btn">
+							获取短信验证码
+						</div>
+
+					</div>
+					<div class="l sign-err">
+						验证码不正确，请重新获取
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit">
+						<span class="sign-bx">验证码</span>
+					</div>
+					<div class="l sign-btn sign-btn-no">
+						<div class="sign-btn-s l">
+							<input type="text" id="yzm" placeholder="请输入验证码">
+						</div>
+						<div class="r">
+							<div class="l yzt"></div>
+							<div class="l hyh">换一张</div>
+						</div>
+					</div>
+					<div class="l sign-err">
+						验证码不正确，请重新输入
+					</div>
+					<div class="l sign-suc">
+					成功
+					</div>
+				</div>
+
+				<div class="clearfix sign-item sign-btn-box">
+					<div class="l sign-tit"></div>
+					<div class="l sign-btn sign-btn-no sign" id="sign">
+						同意协议并注册
+					</div>
+				</div>
+				<div class="clearfix sign-item">
+					<div class="l sign-tit"></div>
+					<div class="l sign-btn sign-btn-no">
+						<a class="l" href="javascript:;"><<海云互通网络管理协议>></a>
+						<a class="r" href="javascript:;"><<立即登录</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

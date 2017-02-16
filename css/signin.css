@@ -1,0 +1,170 @@
+.fl, header h1 a, header span, .name-wrapper, .inp-wrapper {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix:after, header:after, .username:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.clearfix, header, .username {
+  zoom: 1; }
+
+.ab, .tip-wrapper {
+  position: absolute; }
+
+.re, .username {
+  position: relative; }
+
+.fixed {
+  position: fixed;
+  z-index: 400; }
+
+.servie-title {
+  width: 1004px;
+  height: 76px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto 34px; }
+  .servie-title h2 {
+    height: 45px;
+    margin-left: -86px;
+    position: absolute;
+    left: 50%;
+    margin-top: 64px;
+    background: url(../images/sprite-tit.png) no-repeat #fff; }
+
+.min-w, body {
+  min-width: 1200px; }
+
+.inner, header .header-container {
+  width: 1200px;
+  margin: 0 auto; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5; }
+
+body {
+  min-width: 1200px; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  vertical-align: top; }
+
+ol, ul, dl {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 12px; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+textarea {
+  outline: none;
+  resize: none; }
+
+table {
+  border-collapse: collapse; }
+
+div, p, h1, h2, h3, h4, h5, h6, b, strong, i, em, span, a, img, ul, ol, dl, input, textarea, label, select, tbody, option, body, html, dt, dd, li {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #fafafa;
+  font-size: 12px; }
+
+header {
+  box-shadow: 0 1px 3px #CCC;
+  background: #fff; }
+  header .header-container {
+    height: 74px;
+    padding: 13px 0; }
+  header h1 {
+    background: url("../images/signin-logo.png") no-repeat;
+    width: 318px;
+    height: 70px;
+    float: left; }
+    header h1 a {
+      width: 100%;
+      height: 100%;
+      text-indent: -2000px; }
+  header span {
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 15px;
+    line-height: 54px; }
+
+.icon-notices, .tip-wrapper .icon-errors {
+  background: url("../images/ico_warn.png");
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.registerForm {
+  width: 685px;
+  margin: 55px auto 118px;
+  padding: 38px 225px 105px 290px;
+  border: 1px solid #e6e6e6;
+  background: #fff; }
+
+.error-message {
+  border-bottom: 1px dotted red;
+  color: red;
+  font-size: 15px;
+  line-height: 33px;
+  height: 33px;
+  font-weight: 700;
+  text-align: center;
+  background: #ffc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.username {
+  margin-top: 22px; }
+
+.name-wrapper {
+  width: 112px;
+  text-align: right;
+  float: left;
+  line-height: 40px; }
+
+.must {
+  color: #ff910f;
+  font-size: 18px;
+  padding: 3px; }
+
+.inp-wrapper {
+  width: 367px; }
+  .inp-wrapper input {
+    padding: 0 14px;
+    border: 1px solid #ccc;
+    color: #333;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    height: 40px; }
+
+.tip-wrapper {
+  color: #e64141;
+  left: 540px;
+  top: 7px;
+  text-indent: -17px; }
+  .tip-wrapper .icon-errors {
+    background-position: 0 -100px; }
+
+/*# sourceMappingURL=signin.css.map */
